@@ -22,11 +22,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleAspectFit" misplaced="YES" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="xjd-v2-mAt">
-                                <rect key="frame" x="110" y="353" width="155" height="240"/>
+                            <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="xjd-v2-mAt">
+                                <rect key="frame" x="51" y="352" width="273" height="240"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tA6-t5-S09">
-                                        <rect key="frame" x="10" y="0.0" width="135" height="135"/>
+                                        <rect key="frame" x="69" y="0.0" width="135" height="135"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="135" id="Kko-e8-oHn"/>
                                             <constraint firstAttribute="width" constant="135" id="Kq2-s2-R8g"/>
@@ -37,13 +37,13 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to Record" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xvJ-Go-bO9">
-                                        <rect key="frame" x="1" y="135" width="153.5" height="30"/>
+                                        <rect key="frame" x="60" y="135" width="153.5" height="30"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleAspectFit" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="cgj-pb-Rvs">
-                                        <rect key="frame" x="40" y="165" width="75" height="75"/>
+                                        <rect key="frame" x="99" y="165" width="75" height="75"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3X5-cV-vLj">
                                                 <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
@@ -64,8 +64,8 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="xjd-v2-mAt" secondAttribute="bottom" constant="75" id="QUm-5K-gbz"/>
-                            <constraint firstItem="xjd-v2-mAt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="94" id="Vlz-PS-ZKR"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="xjd-v2-mAt" secondAttribute="trailing" constant="94" id="b44-6g-vfR"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="xjd-v2-mAt" secondAttribute="trailing" constant="35" id="iGa-DB-Naf"/>
+                            <constraint firstItem="xjd-v2-mAt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="35" id="tjo-WM-Wsi"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="HPl-W4-rem"/>
