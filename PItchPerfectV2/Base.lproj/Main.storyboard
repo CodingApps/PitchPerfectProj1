@@ -23,33 +23,36 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="xjd-v2-mAt">
-                                <rect key="frame" x="51" y="352" width="273" height="240"/>
+                                <rect key="frame" x="51" y="389" width="273" height="203"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tA6-t5-S09">
-                                        <rect key="frame" x="69" y="0.0" width="135" height="135"/>
+                                        <rect key="frame" x="76" y="0.0" width="121" height="120"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="135" id="Kko-e8-oHn"/>
-                                            <constraint firstAttribute="width" constant="135" id="Kq2-s2-R8g"/>
+                                            <constraint firstAttribute="height" constant="120" id="Kko-e8-oHn"/>
+                                            <constraint firstAttribute="width" constant="121" id="Kq2-s2-R8g"/>
                                         </constraints>
                                         <state key="normal" image="RecordButton"/>
                                         <connections>
                                             <action selector="recordAudio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rsq-V3-UBb"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to Record" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xvJ-Go-bO9">
-                                        <rect key="frame" x="60" y="135" width="153.5" height="30"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to Record" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xvJ-Go-bO9">
+                                        <rect key="frame" x="51.5" y="120" width="170" height="18"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="170" id="cvB-R2-1Yi"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleAspectFit" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="cgj-pb-Rvs">
-                                        <rect key="frame" x="99" y="165" width="75" height="75"/>
+                                        <rect key="frame" x="104" y="138" width="65" height="65"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3X5-cV-vLj">
-                                                <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="65" height="65"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="75" id="EVj-Kn-xmQ"/>
-                                                    <constraint firstAttribute="width" constant="75" id="RdW-n8-IoG"/>
+                                                    <constraint firstAttribute="height" constant="65" id="EVj-Kn-xmQ"/>
+                                                    <constraint firstAttribute="width" constant="65" id="RdW-n8-IoG"/>
                                                 </constraints>
                                                 <state key="normal" image="Stop"/>
                                                 <connections>
@@ -72,6 +75,7 @@
                     <connections>
                         <outlet property="RecordingLabel" destination="xvJ-Go-bO9" id="fO1-FO-Efj"/>
                         <outlet property="recordButton" destination="tA6-t5-S09" id="Igg-es-0vs"/>
+                        <outlet property="recordingLabel" destination="xvJ-Go-bO9" id="FCF-4D-v9D"/>
                         <outlet property="stopRecordingButton" destination="3X5-cV-vLj" id="4bG-nu-APR"/>
                         <segue destination="Tqc-gQ-hZb" kind="show" identifier="stopRecording" id="gO9-WM-9mU"/>
                     </connections>
