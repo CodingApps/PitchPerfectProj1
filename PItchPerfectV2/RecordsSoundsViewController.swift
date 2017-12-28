@@ -24,7 +24,7 @@ class RecordSoundsViewController : UIViewController, AVAudioRecorderDelegate  {
         super.viewDidLoad()
         labelSetting(Bool1: false, Bool2: true, Text: "Tap to Record" )
     
-        // Do any additional setup after loading the view, typically from a nib.
+        // Do any additional setup after loading the view, typically from a nib. Updated.
     }
     
 
