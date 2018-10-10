@@ -21,7 +21,7 @@ This project allows you to make a recording, then apply one of several sound tra
 
 ## Methods on the Main Thread
 
-An interesting area from all the controllers was the recordAudio function. In addition to saving the file, this included some of the many parameters available to the audioRecorder method.  
+An interesting aspect of the controllers came from the recordAudio function. In addition to saving the file, this included some of the many parameters available to the audioRecorder method.  
 
 ``` swift
 @IBAction func recordAudio(_ sender: AnyObject) {
