@@ -19,7 +19,7 @@ This project allows you to make a recording, then apply one of several sound tra
 * Allow user to select one of six sound transform effects and replay audio. 
 <br>
 
-## Methods on the Main Thread
+## Wide set of parameters for audioRecorder
 
 An interesting aspect of the controllers came from the recordAudio function. In addition to saving the file, this included some of the many parameters available to the audioRecorder method.  
 
